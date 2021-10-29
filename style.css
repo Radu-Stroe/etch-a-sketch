@@ -1,0 +1,12 @@
+.content {
+    width: 320px;
+    display: grid;
+    grid-template-columns: repeat(16, minmax(20px, 1fr));
+    grid-template-rows: repeat(16, minmax(20px, 1fr));
+}
+
+.square {
+    border: solid 1px black;
+    margin-top: -1px;
+    margin-left: -1px;
+}
